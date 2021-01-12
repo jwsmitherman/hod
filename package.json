@@ -1,6 +1,6 @@
 {
   "name": "hod_site",
-  "homepage": "https://jwsmitherman.github.io/hod",
+  "homepage": "https://jwsmitherman.github.io/hod/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
