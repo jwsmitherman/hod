@@ -301,12 +301,10 @@ const HomepageLayout = () => (
           Upcoming Events
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-          Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but
-          it's really true. It took years of gene splicing and combinatory DNA research, but our
-          bananas can really dance.
+          coming soon
         </p>
         <Button as='a' size='large'>
-          I'm Still Quite Interested
+          Check Them Out!
         </Button>
       </Container>
     </Segment>
@@ -318,27 +316,18 @@ const HomepageLayout = () => (
             <Grid.Column width={3}>
               <Header inverted as='h4' content='About' />
               <List link inverted>
-                <List.Item as='a'>Sitemap</List.Item>
-                <List.Item as='a'>Contact Us</List.Item>
-                <List.Item as='a'>Religious Ceremonies</List.Item>
-                <List.Item as='a'>Gazebo Plans</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={3}>
-              <Header inverted as='h4' content='Services' />
-              <List link inverted>
-                <List.Item as='a'>Banana Pre-Order</List.Item>
-                <List.Item as='a'>DNA FAQ</List.Item>
-                <List.Item as='a'>How To Access</List.Item>
-                <List.Item as='a'>Favorite X-Men</List.Item>
+                <List.Item as='a'>Donate</List.Item>
+                <List.Item as='a'>Work with us</List.Item>
+                <List.Item as='a'>Events</List.Item>
+                <List.Item as='a'>Contact</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
               <Header as='h4' inverted>
-                Footer Header
+                Copyright
               </Header>
               <p>
-                Extra space for a call to action inside the footer that could help re-engage users.
+                HOUZ of DYZA
               </p>
             </Grid.Column>
           </Grid.Row>
