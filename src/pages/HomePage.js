@@ -274,15 +274,24 @@ const HomepageLayout = () => (
         Our Latest Projects
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-        Sanitary Pads Campaign for Underprivileged Girls 65% of teenage girls in underdeveloped societies have no access to safe hygienic products when they are having their monthly cycle. Houz of Dyza is a nonprofit organization which promotes, life enrichment programs, self discovery and a purposeful living.
+        <b>Sanitary Pads for Underprivileged Girls.</b>
         </p>
 
         <p style={{ fontSize: '1.33em' }}>
-        We are particular about vulnerable girls and women who have become victims of Gender Based Violence. Houz of Dyza advocates and fights against all abuses faced by women and girls, we empower victims with Leadership silks which Inspires, Transforms, Motivates. We are currently working with schools and local business owners in communities all around the world. The Sanitary Pads Campaign for Girls in Underdeveloped Countries is a program created to give the girl child an equal chance to compete and live a fulfilled life. Girls in these parts of the world miss at least three to four days of class every month when they are on their monthly cycle as a result of lack of appropriate hygiene education, backing and supplies.
+        Statistics have proven that 65% of teenage girls in underdeveloped societies have no access to safe hygienic products when they are experiencing their monthly cycle. 
+       </p>
+
+        <p style={{ fontSize: '1.33em' }}>
+        Here at Houz of Dyza we promote self discovery and purposeful living, on realizing what millions of teenage girls are battling with we have come up with this idea to help. We are particular about vulnerable girls and women who have become victims of gender based violence.
+ 
         </p>
 
         <p style={{ fontSize: '1.33em' }}>
-        By helping educate these girls, we are building a stronger world where our sisters, mothers, nieces and friends can become leaders of tomorrow. We are giving an opportunity for the girl child to have a voice where the microphone has been snatched out of her hands by the society she lives in. Girls in there parts of the deal with stigmatization They are pulled out of school, married early, and are more likely to be subjected to violence.
+        Houz of Dyza advocates and fights against all abuses faced by women and girls, we empower victims with leadership silks which becomes an avenue to living a better life. We are currently working with schools and local business owners in communities all around the world. The Sanitary Pads Project for Girls in Underdeveloped Countries is a program created to give the girl child an equal chance to compete and live a fulfilled life. Girls in these parts of the world miss at least three to four days of class every month when they are on their monthly cycle as a result of lack of appropriate hygiene education, backing and supplies. 
+        </p>
+        <p style={{ fontSize: '1.33em' }}>
+        By helping educate these girls, we are building a stronger world where our sisters, mothers, nieces and friends can become leaders of tomorrow. We are giving an opportunity for the girl child to have a voice where the microphone has been snatched out of her hands by the society she lives in. Some of these girls deal with stigmatization and  are pulled out of school, married early, and are more likely to be subjected to violence.
+
         </p>
         <Button as='a' size='large'>
           Read More
