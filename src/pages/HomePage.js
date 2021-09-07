@@ -38,7 +38,6 @@ const HomepageHeading = ({ mobile }) => (
     <img src={HODLogo} alt="React Logo" />
     <Header
       as='h2'
-      content='Making a Difference in The World for Good'
       inverted
       style={{
         fontSize: mobile ? '1.5em' : '1.7em',
@@ -47,7 +46,7 @@ const HomepageHeading = ({ mobile }) => (
       }}
     />
     <Button primary size='huge'>
-      See How to Become a Change Makrer
+      See How to Become a Change Maker
       <Icon name='right arrow' />
     </Button>
   </Container>
@@ -92,9 +91,7 @@ class DesktopContainer extends Component {
               size='large'
             >
               <Container>
-                <Menu.Item as='a' active>
-                  Home
-                </Menu.Item>
+                <Menu.Item as='a' active>Home</Menu.Item>
                 <Menu.Item as='a'>Donante</Menu.Item>
                 <Menu.Item as='a'>Work With Us</Menu.Item>
                 <Menu.Item as='a'>Events</Menu.Item>
@@ -195,80 +192,8 @@ ResponsiveContainer.propTypes = {
 
 const HomepageLayout = () => (
   <ResponsiveContainer>
-    <Segment style={{ padding: '8em 0em' }} vertical>
-      <Grid container stackable verticalAlign='middle'>
-        <Grid.Row>
-          <Grid.Column width={8}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-            Holiday Season Cheer
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-                <ul>
-                    <li>Donate to help provide food, toys and gifts to our children in refugee camps in the Benue/Cameroon border.</li>
 
-                    <li>Make or sign holiday cards, if you’d like to put a funny picture of you and your family/pets to help make a kid smile during the holiday season then you will be changing the world a great deal</li>
-
-                    <li>Assist with gift wrapping (only available for mission trippers)</li>
-                </ul>
-              We can give your company superpowers to do things that they never thought possible.
-              Let us delight your customers and empower your needs... through pure data analytics.
-            </p>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              Check out all our latest projects
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-              Yes that's right, we are making change happen around the world. Check out about more events and how you can be a change maker today!
-            </p>
-          </Grid.Column>
-          <Grid.Column floated='right' width={6}>
-            <Christmas2020 />
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row>
-          <Grid.Column textAlign='center'>
-            <Button size='huge'>Want to See More Events, Check Them Out</Button>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Segment>
-
-    <Segment style={{ padding: '0em' }} vertical>
-      <Grid celled='internally' columns='equal' stackable>
-        <Grid.Row textAlign='center'>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-            Work With Us!
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-            The desire to make a difference in a world where kindness is not enough, drove us to create an avenue where people of like minds would come together and be a part of serving humanity.
-            Does this sound like what you are looking for? If your answer is yes, complete the form below to become a changemaker.
-            Houz of Dyza has long-term and short-term volunteer opportunities. To protect our recipients rights, a volunteer application and a criminal background check is required for the mission trips.
-            </p>
-            <EmailForm />
-          </Grid.Column>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-            Make a Doniation
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-            Your contribution to Houz of Dyza gives the most vulnerable people around the world a chance to heal, find strength and fulfill their purpose. 
-            When you support Houz of Dyza, you are investing in greater, healthier communities that lift up individuals, empowering them to be the best version of themselves.
-
-            <ul>
-                    <li>Volunteer or donate supplies to brightening birthdays celebration</li>
-                    <li>Assist young adults with a resume or job interview coaching</li>
-                    <li>Soul Nourishment Program</li>
-                    <li>Lend your support to women in underdeveloped countries who want to rebuild their lives, their families and communities by starting up small businesses.</li>
-            </ul>
-            
-            <Button size='huge'>Make a Donatation Today</Button>
-            </p>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Segment>
-
-    <Segment style={{ padding: '8em 0em' }} vertical>
+<Segment style={{ padding: '8em 0em' }} vertical>
       <Container text>
         <Header as='h3' style={{ fontSize: '2em' }}>
         Our Latest Projects
@@ -316,6 +241,80 @@ const HomepageLayout = () => (
           Check Them Out!
         </Button>
       </Container>
+    </Segment>
+    
+
+    <Segment style={{ padding: '0em' }} vertical>
+      <Grid celled='internally' columns='equal' stackable>
+        <Grid.Row textAlign='center'>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+            Work With Us!
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+            The desire to make a difference in a world where kindness is not enough, drove us to create an avenue where people of like minds would come together and be a part of serving humanity.
+            Does this sound like what you are looking for? If your answer is yes, complete the form below to become a changemaker.
+            Houz of Dyza has long-term and short-term volunteer opportunities. To protect our recipients rights, a volunteer application and a criminal background check is required for the mission trips.
+            </p>
+            <EmailForm />
+          </Grid.Column>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+            Make a Doniation
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+            Your contribution to Houz of Dyza gives the most vulnerable people around the world a chance to heal, find strength and fulfill their purpose. 
+            When you support Houz of Dyza, you are investing in greater, healthier communities that lift up individuals, empowering them to be the best version of themselves.
+
+            <ul>
+                    <li>Volunteer or donate supplies to brightening birthdays celebration</li>
+                    <li>Assist young adults with a resume or job interview coaching</li>
+                    <li>Soul Nourishment Program</li>
+                    <li>Lend your support to women in underdeveloped countries who want to rebuild their lives, their families and communities by starting up small businesses.</li>
+            </ul>
+            
+            <Button size='huge'>Make a Donatation Today</Button>
+            </p>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+    </Segment>
+
+    
+
+    <Segment style={{ padding: '8em 0em' }} vertical>
+      <Grid container stackable verticalAlign='middle'>
+        <Grid.Row>
+          <Grid.Column width={8}>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+            Holiday Season Cheer
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+                <ul>
+                    <li>Donate to help provide food, toys and gifts to our children in refugee camps in the Benue/Cameroon border.</li>
+
+                    <li>Make or sign holiday cards, if you’d like to put a funny picture of you and your family/pets to help make a kid smile during the holiday season then you will be changing the world a great deal</li>
+
+                    <li>Assist with gift wrapping (only available for mission trippers)</li>
+                </ul>
+            </p>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+              Check out all our latest projects
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+              Yes that's right, we are making change happen around the world. Check out about more events and how you can be a change maker today!
+            </p>
+          </Grid.Column>
+          <Grid.Column floated='right' width={6}>
+            <Christmas2020 />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column textAlign='center'>
+            <Button size='huge'>Want to See More Events, Check Them Out</Button>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
     </Segment>
 
     <Segment inverted vertical style={{ padding: '5em 0em' }}>
