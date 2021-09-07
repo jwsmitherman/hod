@@ -210,8 +210,7 @@ const HomepageLayout = () => (
 
                     <li>Assist with gift wrapping (only available for mission trippers)</li>
                 </ul>
-              We can give your company superpowers to do things that they never thought possible.
-              Let us delight your customers and empower your needs... through pure data analytics.
+        
             </p>
             <Header as='h3' style={{ fontSize: '2em' }}>
               Check out all our latest projects
