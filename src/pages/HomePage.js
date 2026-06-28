@@ -93,11 +93,7 @@ class DesktopContainer extends Component {
             >
               <Container>
                 <Menu.Item as='a' active>Home</Menu.Item>
-<<<<<<< HEAD
-                <Menu.Item as='a'><a href='#donation'>Donante</a></Menu.Item>
-=======
                 <Menu.Item as='a'><a href='#donate'>Donate</a></Menu.Item>
->>>>>>> e6e9c612e5fdb3ccd889227b1b02501fd398a227
                 <Menu.Item as='a'>Work With Us</Menu.Item>
                 <Menu.Item as='a'>Events</Menu.Item>
                 <Menu.Item as='a'>Contact</Menu.Item>
@@ -269,11 +265,7 @@ const HomepageLayout = () => (
             <Header as='h3' style={{ fontSize: '2em' }}>
             Make a Donation
             </Header>
-<<<<<<< HEAD
-            <p style={{ fontSize: '1.33em' }} id='donation'>
-=======
             <p style={{ fontSize: '1.33em' }} id='donate'>
->>>>>>> e6e9c612e5fdb3ccd889227b1b02501fd398a227
             Your contribution to Houz of Dyza gives the most vulnerable people around the world a chance to heal, find strength and fulfill their purpose. 
             When you support Houz of Dyza, you are investing in greater, healthier communities that lift up individuals, empowering them to be the best version of themselves.
 
@@ -283,13 +275,8 @@ const HomepageLayout = () => (
                     <li>Soul Nourishment Program</li>
                     <li>Lend your support to women in underdeveloped countries who want to rebuild their lives, their families and communities by starting up small businesses.</li>
             </ul>
-<<<<<<< HEAD
-            
-            <Button size='huge'>Make a Donation Today</Button>
-=======
           
             <Button size='huge'><a href="https://secure.qgiv.com/for/hod" target="_blank">Make a Donation Today</a></Button>
->>>>>>> e6e9c612e5fdb3ccd889227b1b02501fd398a227
             </p>
           </Grid.Column>
         </Grid.Row>
@@ -330,11 +317,7 @@ const HomepageLayout = () => (
             <Grid.Column width={3}>
               <Header inverted as='h4' content='About' />
               <List link inverted>
-<<<<<<< HEAD
-                <List.Item as='a'><a href='#donation'>Donate</a></List.Item>
-=======
                 <List.Item as='a'><a href='#donate'>Donate</a></List.Item>
->>>>>>> e6e9c612e5fdb3ccd889227b1b02501fd398a227
                 <List.Item as='a'>Work with us</List.Item>
                 <List.Item as='a'>Events</List.Item>
                 <List.Item as='a'>Contact</List.Item>
