@@ -321,6 +321,7 @@ const HomepageLayout = () => (
                 <List.Item as='a'>Work with us</List.Item>
                 <List.Item as='a'>Events</List.Item>
                 <List.Item as='a'>Contact</List.Item>
+                <List.Item as='a'>Test</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
