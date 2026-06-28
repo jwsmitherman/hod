@@ -5,6 +5,7 @@ import "semantic-ui-css/semantic.min.css";
 import HODLogo from '../assets/SVGLogo.svg';
 import EmailForm from '../compoenents/EmailForm'
 import Christmas2020 from './Christmas2020'
+import SanPad from '../assets/event_img/sanitary_pads_event/sanitary_pads_event.jpeg'
 
 import {
   Button,
@@ -92,7 +93,11 @@ class DesktopContainer extends Component {
             >
               <Container>
                 <Menu.Item as='a' active>Home</Menu.Item>
+<<<<<<< HEAD
                 <Menu.Item as='a'><a href='#donation'>Donante</a></Menu.Item>
+=======
+                <Menu.Item as='a'><a href='#donate'>Donate</a></Menu.Item>
+>>>>>>> e6e9c612e5fdb3ccd889227b1b02501fd398a227
                 <Menu.Item as='a'>Work With Us</Menu.Item>
                 <Menu.Item as='a'>Events</Menu.Item>
                 <Menu.Item as='a'>Contact</Menu.Item>
@@ -219,6 +224,7 @@ const HomepageLayout = () => (
         By helping educate these girls, we are building a stronger world where our sisters, mothers, nieces and friends can become leaders of tomorrow. We are giving an opportunity for the girl child to have a voice where the microphone has been snatched out of her hands by the society she lives in. Some of these girls deal with stigmatization and  are pulled out of school, married early, and are more likely to be subjected to violence.
 
         </p>
+        <img alt="panda" className="photo" src={SanPad} width="500" height="600"/><br></br>
         <Button as='a' size='large'>
           Read More
         </Button>
@@ -263,7 +269,11 @@ const HomepageLayout = () => (
             <Header as='h3' style={{ fontSize: '2em' }}>
             Make a Donation
             </Header>
+<<<<<<< HEAD
             <p style={{ fontSize: '1.33em' }} id='donation'>
+=======
+            <p style={{ fontSize: '1.33em' }} id='donate'>
+>>>>>>> e6e9c612e5fdb3ccd889227b1b02501fd398a227
             Your contribution to Houz of Dyza gives the most vulnerable people around the world a chance to heal, find strength and fulfill their purpose. 
             When you support Houz of Dyza, you are investing in greater, healthier communities that lift up individuals, empowering them to be the best version of themselves.
 
@@ -273,15 +283,18 @@ const HomepageLayout = () => (
                     <li>Soul Nourishment Program</li>
                     <li>Lend your support to women in underdeveloped countries who want to rebuild their lives, their families and communities by starting up small businesses.</li>
             </ul>
+<<<<<<< HEAD
             
             <Button size='huge'>Make a Donation Today</Button>
+=======
+          
+            <Button size='huge'><a href="https://secure.qgiv.com/for/hod" target="_blank">Make a Donation Today</a></Button>
+>>>>>>> e6e9c612e5fdb3ccd889227b1b02501fd398a227
             </p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
     </Segment>
-
-    
 
     <Segment style={{ padding: '8em 0em' }} vertical>
       <Grid container stackable verticalAlign='middle'>
@@ -299,9 +312,6 @@ const HomepageLayout = () => (
                     <li>Assist with gift wrapping (only available for mission trippers)</li>
                 </ul>
             </p>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              Check out all our latest projects
-            </Header>
             <p style={{ fontSize: '1.33em' }}>
               Yes that's right, we are making change happen around the world. Check out about more events and how you can be a change maker today!
             </p>
@@ -320,7 +330,11 @@ const HomepageLayout = () => (
             <Grid.Column width={3}>
               <Header inverted as='h4' content='About' />
               <List link inverted>
+<<<<<<< HEAD
                 <List.Item as='a'><a href='#donation'>Donate</a></List.Item>
+=======
+                <List.Item as='a'><a href='#donate'>Donate</a></List.Item>
+>>>>>>> e6e9c612e5fdb3ccd889227b1b02501fd398a227
                 <List.Item as='a'>Work with us</List.Item>
                 <List.Item as='a'>Events</List.Item>
                 <List.Item as='a'>Contact</List.Item>
